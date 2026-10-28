@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luze — learning to build with AI</title>
+  <meta name="description" content="Personal homepage of Luze, a student learning to build AI products with vibe coding.">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236c5ce7'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='white' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Back to top">Luze<span class="dot">.</span></a>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#learning">Learning</a>
+      <a href="#now">Now</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme">
+      <span class="icon" aria-hidden="true">◐</span>
+    </button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <p class="eyebrow">Week 05 · GitHub Pages</p>
+      <h1>Hi, I'm <span class="grad">Luze</span>.<br>I build small things with AI.</h1>
+      <p class="lede">
+        I'm a student in <em>Building Intelligent AI Products with Vibe Coding</em>.
+        This page is my first live site: hand-written HTML and CSS, published with GitHub Pages,
+        no framework and no build step.
+      </p>
+      <div class="actions">
+        <a class="btn" href="#learning">What I'm learning</a>
+        <a class="btn ghost" href="#now">Right now</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2><span class="num">01</span> About</h2>
+      <div class="prose">
+        <p>
+          I like the moment when a vague idea becomes something you can click. Most of what I know
+          about software I learned by breaking small projects and then fixing them.
+        </p>
+        <p>
+          These days I'm learning how AI agents actually work — not just how to prompt them.
+          That means reading about the loop behind a coding assistant: the model thinks, asks for a
+          tool, reads the result, and decides what to do next.
+        </p>
+      </div>
+    </section>
+
+    <section id="learning" class="section">
+      <h2><span class="num">02</span> Learning</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Version control</h3>
+          <p>
+            Git keeps every version of a file, so two people can edit the same line without
+            emailing <code>final-final-v2.md</code> around. A commit is a checkpoint I can return to.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Publishing</h3>
+          <p>
+            GitHub Pages turns a public repository into a website. Push the files, pick a branch,
+            and the page appears at <code>&lt;username&gt;.github.io</code>.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Agent loops</h3>
+          <p>
+            An assistant is more than one model call. It reads a question, chooses a document to
+            look up, checks the result, and only then answers — or asks for something else.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="now" class="section">
+      <h2><span class="num">03</span> Now</h2>
+      <ul class="now-list">
+        <li><span class="when">Reading</span> <em>Unrolling the Codex agent loop</em> by OpenAI</li>
+        <li><span class="when">Building</span> a mental model of a course-assistant agent</li>
+        <li><span class="when">Practicing</span> commits, pushes and pulls on a private test repo</li>
+        <li><span class="when">Shipping</span> this page as my Week 05 deliverable</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built by hand for Week 05. No trackers, no frameworks.</p>
+    <p class="muted">© <span id="year">2026</span> Luze</p>
+  </footer>
+</body>
+</html>
