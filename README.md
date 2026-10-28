@@ -1,6 +1,6 @@
 # github_homepage
 
-My personal GitHub Pages site: **https://&lt;username&gt;.github.io/**
+My personal GitHub Pages site: **https://luze-111.github.io/**
 
 A single static page introducing me and what I am learning in Week 05.
 Hand-written HTML, CSS and a small JavaScript file. No framework, no build step,
@@ -36,10 +36,10 @@ There are no dependencies and no lockfile, so nothing needs installing.
 
 ## How it is published
 
-1. Create a **public** repository named `<username>.github.io`.
+1. Create a **public** repository named `luze-111.github.io`.
 2. Put `index.html`, `style.css` and `script.js` in the repository **root**.
 3. Settings → Pages → Source: *Deploy from a branch* → `main` / `(root)` → Save.
-4. Wait for the deployment, then open `https://<username>.github.io/`.
+4. Wait for the deployment, then open `https://luze-111.github.io/`.
 
 ## Editing
 
